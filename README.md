@@ -1,3 +1,5 @@
+This is a copy of RFCDE, to fix a problem in the cpp when installing it.
+
 RFCDE
 ===
 
