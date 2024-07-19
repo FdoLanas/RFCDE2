@@ -50,7 +50,7 @@ void draw_weights(std::vector<int>& weights) {
   // Side-Effects: fills weights with draws from a Pois(1) RV.
 
   static std::default_random_engine generator;
-  static std::poisson_distribution<int> distribution(1.0);
+  static std::poisson_distribution<int> distribution(1);
 
   for (int ii = 0; ii < weights.size(); ii++) {
     weights[ii] = distribution(generator);
